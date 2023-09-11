@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Teko:wght@500&display=swap');
+.body{
+    background-color: #dacccc;
+    display: flex;
+    min-height: 100%;
+    margin: 0;
+    padding: 0;
+    
+}
+
+#bodycolor{
+    background:#ec1e1e;
+}
+#header{
+    width: 1519px;
+    height: 112px;
+    border: 0px solid ;
+    margin: 0px Auto;
+    background-color: rgb(255, 255, 255);
+    overflow: hidden;
+    
+
+}
+#navebar{
+    width: 1519px;
+    height:500px;
+    border:0px Solid#05f348;
+    margin:0 Auto;
+    background-image:url(nav\ \(1\).png) ;
+    margin-top: 10px;
+    font-family: arial;
+    padding-right: 15px;
+    text-align: center;
+    
+    overflow: hidden;
+    
+}
+
+#navebar a{
+    text-decoration: none;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:#000000;
+    
+}
+
+#navebar a:hover{
+    color: orange;
+    transition: 1s;
+}
+
+
+
+
+    
+
+      
+
+#button{
+    width: 150px;
+    height: 100px;
+    float: left;
+    font-family: Arial;
+    margin-right: 153px;
+    padding-top: 25px;
+    font-size: 30px;
+    overflow: hidden;
+    
+    
+}
+.bigbox{
+    width: 90%;
+    height: 600px;
+    border: 0px solid black;
+    margin-left: 5%;
+    margin-top: 16px;
+    overflow: hidden;
+    display: flex;
+}
+.subbox1{
+    width: 22%;
+    height:454px ;
+    border: 0px solid black;
+    text-align: justify;
+    overflow: hidden;
+    display: flex;
+    font-family:"arial";
+    line-height: 37px;
+  
+    
+    
+
+}
+.subbox2{
+    width: 76%;
+    height:454px ;
+    border: 0px solid black;
+    background-image: url(wh1.jpg);
+    background-size: auto;
+    overflow: hidden;
+    display: flex;
+    
+}
+.img1 {
+    width: 39%;
+    height: 346px;
+    border: 0px solid black;
+    background-size: auto;
+    overflow: hidden;
+    display: flex;
+    margin-top: 53px;
+    margin-left: 72px;
+   
+    
+}
+.img1 img{
+    border-radius: 17%;
+}
+
+.img2 {
+    width: 35%;
+    height: 343px;
+    border: 0px solid black;
+    background-size: auto;
+    overflow: hidden;
+    display: flex;
+    margin-top: -346px;
+    margin-left: 774px;
+}
+
+.img2 img{
+    border-radius: 17%;
+}
+
+.img3 {
+    width: 41%;
+    height: 343px;
+    border: 0px solid black;
+    background-size: auto;
+    overflow: hidden;
+    display: flex;
+    margin-top: 13px;
+    gap: 2px;
+    margin-left: 416px;
+}
+.img3 img{
+    border-radius: 17%;
+}
+
+.topic{
+    width: 64%;
+    height: 63px;
+    border: 0px solid black;
+    margin-left: 28px;
+    text-align: center;
+    font-size: 54px;
+    margin-top: 13px;
+    
+
+}
+.main{
+    overflow: hidden;
+    
+}
+.footer{
+    padding-top: 7%;
+    padding-bottom: auto;
+    width:100%;
+    background:linear-gradient(to top,rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%),url(couple.jpg);
+    background-position: center;
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height:50vh;
+    font-family: 'Times New Roman';
+    font-size: medium;
+    color:#fff;
+    background-image:url(colombo\ hotel.jpg);
+}

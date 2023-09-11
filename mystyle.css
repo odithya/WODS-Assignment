@@ -1,0 +1,751 @@
+@import url('https://fonts.googleapis.com/css2?family=arial:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Pacifico&family=arial:wght@500&display=swap');
+.body{
+background-color: #dacccc;
+    display: flex;
+    min-height: 100%;
+    margin: 0;
+    overflow: hidden;
+}
+
+#header{
+    width: 1519px;
+    height: 112px;
+    border: 0px solid ;
+    margin: 0px Auto;
+    background-color: rgb(255, 255, 255);
+    overflow: hidden;
+    
+
+}
+#navebar{
+    width: 1519px;
+    height:500px;
+    border:0px Solid#05f348;
+    margin:0 Auto;
+    background-image:url(nav\ \(1\).png) ;
+    margin-top: 10px;
+    font-family: arial;
+    padding-right: 15px;
+    text-align: center;
+   
+    overflow: hidden;
+    
+}
+
+#navebar a{
+    text-decoration: none;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:#000000;
+}
+
+#navebar a:hover{
+    color: orange;
+    transition: 1s;
+}
+
+
+
+
+    
+
+      
+
+#button{
+    width: 150px;
+    height: 100px;
+    float: left;
+    font-family: Arial;
+    margin-right: 153px;
+    padding-top: 25px;
+    font-size: 30px;
+    overflow: hidden;
+    
+}
+
+
+
+#greet{
+    width: 1024px;
+    height:509px;
+    border:0px solid;
+    margin:0 Auto;
+    float: left;
+    margin-top: 10px;
+    margin-left: 150px;
+    overflow: hidden;
+    
+
+}
+
+#box1{
+    width: 473px;
+    height:483px;
+    border:0px solid;
+    margin:0 Auto;
+    float: left;
+    margin-top: 10px;
+    margin-left: 10px;
+    background-image: url(greet\ \(1\).png);
+    overflow: hidden;
+    
+
+}
+#box2{
+    width: 524px;
+    height:483px;
+    border:0px solid;
+    margin:0 Auto;
+    float: left;
+    margin-top: 10px;
+    margin-left: 7px;
+    font-family: 'Times New Roman';
+    font-size: 13px;
+    text-align: justify;
+    line-height: 16px;
+    overflow: hidden;
+}
+
+
+
+.footer{
+    padding-top: 7%;
+    padding-bottom: auto;
+    width:100%;
+    background:linear-gradient(to top,rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%),url(couple.jpg);
+    background-position: center;
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height:50vh;
+    font-family: 'Times New Roman';
+    font-size: medium;
+    color:#fff;
+    background-image:url(colombo\ hotel.jpg);
+}
+
+.footer a{
+    text-decoration: none;
+    color: #fff;
+}
+.footer a:hover{
+    color: #ff7200;
+    transition: 0.4s ease;
+}
+.social{
+    width: 20px;
+    height: 20px;
+    margin-top: 90px;
+    margin-left: 45px;
+    float: left;
+    overflow: hidden;
+
+}
+
+.footerbox{
+    width: 25%;
+    height: 45px;
+    border: 2px solid black;
+    margin-left: 2px;
+    overflow: hidden;
+}
+
+
+
+
+#hotel_box0{
+    width: 1519px;
+    height: 600px;
+    margin: 0 auto;
+    margin-top: 5px;
+    border: 0px solid ;
+    overflow: hidden;
+   
+
+}
+
+#hotel_box1{
+
+    width: 211px;
+    height: 527px;
+    margin: 0 auto;
+    margin-top:  5px;
+    border: 0px solid;
+    margin-left: 0px;
+    font-family: 'times new roman';
+    line-height: 15px;
+    text-align: justify;
+    background-color: aliceblue;
+    overflow: hidden;
+
+
+}
+#hotel_box2{
+    width: 995px;
+    height: 527px;
+    margin: 0 auto;
+   margin-top: -546px;
+   margin-left: 225px;
+    border: 0px solid ;
+    font-family: 'times new roman';
+    text-align: justify;
+    background-color:bisque;
+    overflow: hidden;
+
+   
+
+}
+#villa_box1{
+
+    width: 211px;
+    height: 553px;
+    margin: 0 auto;
+    margin-top:  5px;
+    border: 0px solid;
+    margin-left: 0px;
+    font-family: 'times new roman';
+    line-height: 15px;
+    text-align: justify;
+    background-color: rgb(220, 238, 56);
+    overflow: hidden;
+
+
+
+}
+#villa_box2{
+    width: 1292px;
+    height: 521px;
+    margin: 0 auto;
+   margin-top: -571px;
+   margin-left: 225px;
+    border: 2px solid ;
+    font-family: 'times new roman';
+    text-align: justify;
+    background-color:rgb(42, 176, 174);
+    overflow: hidden;
+
+   
+}
+
+#gbox1{
+    width: 516px;
+    height: 34px;
+    border: 2px solid black;
+    margin: 2px;
+    margin-top: 11px;
+    margin-left: 0px;
+    text-align: justify;
+    overflow: hidden;
+
+   
+
+}
+ 
+
+
+.galleryimg1{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 5px;
+    margin-left: 10px;
+    overflow: hidden;
+}
+
+#galleryimg1 img{
+    width: 17%;
+    padding: 1%;
+    border:0px solid black;
+    border-radius: 20%;
+    overflow: hidden;
+   
+   
+
+
+
+}
+
+#smalltextbox{
+    width: 100px;
+    height:85px ;
+    margin: 0px solid;
+    border: 2px solid black;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    overflow: hidden;
+}
+
+    
+
+
+#sbig{
+    width: 1426px;
+    height: 544px;
+    border: 0px solid;
+    margin: 0px;
+    margin-top: 5px;
+    margin-left: 0px;
+    overflow: hidden;
+    overflow: hidden;
+}
+#dinnerbox{
+    width: 1024px;
+    height: 544px;
+    border: 0px solid;
+    margin: 0px;
+    margin-top: 5px;
+    margin-left: 221px;
+    text-align: justify;
+    font-family: 'times new roman';
+    overflow: hidden;
+
+}
+
+/*Hotels*/
+hotelmain{
+    width: 90%;
+    height: 600px;
+    border: 2px solid black;
+    overflow: hidden;
+    
+}
+
+ol{
+   float: right;
+   text-decoration: none;
+   overflow: hidden; 
+}
+homegal{
+    width: 90%;
+    height: 600px;
+    border: 2px solid black;
+    margin-left: 5%;
+    background-image:url(DDD\ \(1\)\ \(1\).png) ;
+    overflow: hidden;
+    display: flex;
+    margin-top: 10px;
+    
+    
+    
+    
+   
+}
+
+   
+
+.galbox1{
+    width: 31%;
+    height: 81px;
+    border: 0px solid black;
+    margin-top: 262px;
+    margin-left: 724px;
+    overflow: hidden;
+    display: flex;
+    font-size: 63px;
+    font-family: "arial";
+    color: #dacccc;
+
+}
+
+
+.branchbig{
+    width: 90%;
+    height: 600px;
+    border: 0px solid black;
+    margin-left: 5%;
+    margin-top: 16px;
+    overflow: hidden;
+    display: flex;
+}
+.smallh{
+    width: 50%;
+    height:598px ;
+    border: 0px solid black;
+    background-image:url(yala-hotel.jpg);
+    overflow: hidden;
+    display: flex;
+    
+}
+.smallv {
+    width: 46%;
+    height: 598px;
+    border: 0px solid black;
+    background-image: url(e2.jpg);
+    background-size: auto;
+    overflow: hidden;
+    display: flex;
+    margin-left: 751px;
+    margin-top: -599px;
+   
+}
+.smallhh{
+    width: 58%;
+    height: 73px;
+    border: 0px solid black;
+    margin-top: 463px;
+    margin-left: 156px;
+    overflow: hidden;
+    display: flex;
+    font-size: 67px;
+    font-family: "arial";
+    color: #dacccc;
+    text-align: center;
+}
+.smallvv{
+    width: 48%;
+    height: 73px;
+    border: 0px solid black;
+    margin-top: 463px;
+    margin-left: 189px;
+    overflow: hidden;
+    display: flex;
+    font-size: 67px;
+    font-family: "arial";
+    color: #dacccc;
+    text-align: center;
+
+}
+
+.slfoodd{
+    width: 100%;
+    height: 511px;
+    border: 0px solid black;
+    margin-top: 0px;
+    margin-left: 0px;
+    overflow: hidden;
+    display: flex;
+}
+.sldis{
+    width: 19%;
+    height: 368px;
+    border: 0px solid black;
+    margin-top: 59px;
+    margin-left: 42px;
+    overflow: hidden;
+    display: flex;
+    font-family: "Caveat";
+    line-height: 41px;
+}
+.slimg{
+    width: 70%;
+    height: 368px;
+    border: 0px solid black;
+    margin-top: 59px;
+    margin-left: 82px;
+    overflow: hidden;
+    display: flex;
+    
+}
+.infoodd{
+    width: 100%;
+    height: 511px;
+    border: 0px solid black;
+    margin-top: 0px;
+    margin-left: 0px;
+    overflow: hidden;
+    display: flex;
+}
+.indis{
+    width: 19%;
+    height: 368px;
+    border: 0px solid black;
+    margin-top: 59px;
+    margin-left: 42px;
+    overflow: hidden;
+    display: flex;
+    font-family: "Caveat";
+    line-height: 41px;
+}
+.inimg{
+    width: 70%;
+    height: 368px;
+    border: 0px solid black;
+    margin-top: 59px;
+    margin-left: 82px;
+    overflow: hidden;
+    display: flex;
+    
+}
+.itfoodd{
+    width: 100%;
+    height: 511px;
+    border: 0px solid black;
+    margin-top: 0px;
+    margin-left: 0px;
+    overflow: hidden;
+    display: flex;
+}
+.itdis{
+    width: 19%;
+    height: 368px;
+    border: 0px solid black;
+    margin-top: 59px;
+    margin-left: 42px;
+    overflow: hidden;
+    display: flex;
+    font-family: "Caveat";
+    line-height: 41px;
+}
+.itimg{
+    width: 70%;
+    height: 368px;
+    border: 0px solid black;
+    margin-top: 59px;
+    margin-left: 82px;
+    overflow: hidden;
+    display: flex;
+    
+}
+gal{
+    width: 50%;
+    
+}
+
+.eventmain{
+    width: 90%;
+    height: 600px;
+    border: 0px solid black;
+    margin-left: 5%;
+    margin-top: 16px;
+    overflow: hidden;
+    display: flex;
+}
+.event1{
+    width: 50%;
+    height:598px ;
+    border: 0px solid black;
+    background-image:url(eventmain1.jpg);
+    overflow: hidden;
+    display: flex;
+   
+   
+
+}
+.event2 {
+    width: 46%;
+    height: 598px;
+    border: 0px solid black;
+    background-image: url(eventmain2.jpg);
+    background-size: auto;
+    overflow: hidden;
+    display: flex;
+    margin-left: 751px;
+    margin-top: -599px;
+    
+  
+}
+.event11{
+    width: 32%;
+    height: 73px;
+    border: 0px solid black;
+    margin-top: 463px;
+    margin-left: 189px;
+    overflow: hidden;
+    display: flex;
+    font-size: 67px;
+    font-family: "arial";
+    color: #dacccc;
+    text-align: center;
+
+}
+.event22{
+    width: 32%;
+    height: 73px;
+    border: 0px solid black;
+    margin-top: 463px;
+    margin-left: 189px;
+    overflow: hidden;
+    display: flex;
+    font-size: 67px;
+    font-family: "arial";
+    color: #dacccc;
+    text-align: center;
+
+}
+
+.actmain{
+    width: 90%;
+    height: 600px;
+    border: 0px solid black;
+    margin-left: 5%;
+    margin-top: 16px;
+    overflow: hidden;
+    display: flex;
+}
+
+.wine1{
+    width: 100%;
+    height: 511px;
+    border: 0px solid black;
+    margin-top: 0px;
+    margin-left: 0px;
+    overflow: hidden;
+    display: flex;
+}
+.winedis{
+    width: 19%;
+    height: 368px;
+    border: 0px solid black;
+    margin-top: 59px;
+    margin-left: 42px;
+    overflow: hidden;
+    display: flex;
+    font-family: "Caveat";
+    line-height: 41px;
+}
+.wineimg{
+    width: 70%;
+    height: 368px;
+    border: 0px solid black;
+    margin-top: 59px;
+    margin-left: 82px;
+    overflow: hidden;
+    display: flex;
+    
+}
+.zip{
+    width: 100%;
+    height: 511px;
+    border: 0px solid black;
+    margin-top: 0px;
+    margin-left: 0px;
+    overflow: hidden;
+    display: flex;
+}
+.zipdis{
+    width: 19%;
+    height: 368px;
+    border: 0px solid black;
+    margin-top: 59px;
+    margin-left: 42px;
+    overflow: hidden;
+    display: flex;
+    font-family: "Caveat";
+    line-height: 41px;
+}
+.zipimg{
+    width: 70%;
+    height: 368px;
+    border: 0px solid black;
+    margin-top: 59px;
+    margin-left: 82px;
+    overflow: hidden;
+    display: flex;
+    
+}
+.golf{
+    width: 100%;
+    height: 511px;
+    border: 0px solid black;
+    margin-top: 0px;
+    margin-left: 0px;
+    overflow: hidden;
+    display: flex;
+}
+.golfdis{
+    width: 19%;
+    height: 368px;
+    border: 0px solid black;
+    margin-top: 59px;
+    margin-left: 42px;
+    overflow: hidden;
+    display: flex;
+    font-family: "Caveat";
+    line-height: 41px;
+}
+.golfimg{
+    width: 70%;
+    height: 368px;
+    border: 0px solid black;
+    margin-top: 59px;
+    margin-left: 82px;
+    overflow: hidden;
+    display: flex;
+    
+}
+.main{
+    overflow: hidden;
+    
+}
+.about{
+    width: 100%;
+    height: 404px;
+    border: 2px solid black;
+    margin-top: 42px;
+    margin-left: 0;
+    background-image: url(wave.png);
+    text-align: center;
+    line-height: 27px;
+    
+    
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#form{
+    background-color: #000;
+    height:400px;
+    width:800px;
+    margin: auto;
+    margin-top: 100px;
+    opacity:0.7;
+}
+#first-group{
+    border:none;
+    width:400px;
+    margin-top: 38px;
+    position: absolute;
+}
+#content{
+    border: 1px solid #fff;
+    margin:10px;
+    margin-left: 8px;
+    padding:5px;
+}
+#content #input-group{
+    border:none;
+    outline:none;
+    background: transparent;
+    margin-left:8px;
+    width:300px;
+    color:#fff;
+}
+::placeholder{
+    color:#fff;
+}
+.fa{
+    display:inline-block;
+    color:red;
+    border-right:1px solid #fff;
+    padding:8px;
+    margin-left: 8px;
+}
+#second-group{
+    border:none;
+    width:400px;
+    margin-top: 55px;
+    margin-left:400px;
+}
+#submit-btn{
+    margin-top: 30px;
+    margin-left: 600px;
+    background: transparent;
+    color:#fff;
+    width:150px;
+    border:1px solid red;
+    outline:none;
+    padding:10px;
+    font-size: 20px;
+}
+
+.welbox{
+    width: 100%;
+    height: 121px;
+    text-align: center;
+    font-size: 100px;
+    background-image: url(colombo\ hotel.jpg);
+    font-style: italic;
+}

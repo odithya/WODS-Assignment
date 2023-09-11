@@ -1,0 +1,197 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Kalam:wght@300;700&family=Pacifico&family=Teko:wght@500&family=Ubuntu:ital,wght@1,500&display=swap');
+.bodycolor{
+    background:black;
+}
+#header{
+    width: 1519px;
+    height: 112px;
+    border: 0px solid ;
+    margin: 0px Auto;
+    background-color: rgb(255, 255, 255);
+    overflow: hidden;
+    
+
+}
+#navebar{
+    width: 1519px;
+    height:500px;
+    border:0px Solid#05f348;
+    margin:0 Auto;
+    background-image:url(nav\ \(1\).png) ;
+    margin-top: 10px;
+    font-family: arial;
+    padding-right: 15px;
+    text-align: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    
+}
+
+#navebar a{
+    text-decoration: none;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:#000000;
+}
+
+#navebar a:hover{
+    color: orange;
+    transition: 1s;
+}
+
+
+
+
+    
+
+      
+
+#button{
+    width: 150px;
+    height: 100px;
+    float: left;
+    font-family: Arial;
+    margin-right: 153px;
+    padding-top: 25px;
+    font-size: 30px;
+    overflow: hidden;
+    
+    
+    
+}
+#social{
+    width: 20px;
+    height: 20px;
+    margin-top: 90px;
+    margin-left: 45px;
+    float: left;
+
+}
+
+.footer{
+    padding-top: 7%;
+    padding-bottom: auto;
+    width:100%;
+    background:linear-gradient(to top,rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%),url(couple.jpg);
+    background-position: center;
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height:50vh;
+    font-family: 'Times New Roman';
+    font-size: medium;
+    color:#fff;
+    background-image:url(colombo\ hotel.jpg);
+}
+.headingbox{
+    width: 64%;
+    height: 63px;
+    border: 0px solid black;
+    margin-left: 274px;
+    font-family:"ubuntu";
+    text-align: center;
+    font-size: 54px;
+    margin-top: 13px;
+    
+
+}
+
+.mev1b{
+
+    width: 68%;
+    height: 532px;
+    border: 0px solid black;
+    margin-top: 59px;
+    margin-left: 263px;
+    overflow: hidden;
+    display: flex;
+    font-family: "ubuntu";
+    line-height: 41px;
+    font-size: 14px;
+    
+    }
+    .ev1main{
+        width: 100%;
+        height: 511px;
+        border: 0px solid black;
+        margin-top: 16px;
+        margin-left: 0px;
+        overflow: hidden;
+        display: flex;
+    }
+    .ev1dis{
+        width: 23%;
+        height: 458px;
+        border: 0px solid black;
+        margin-top: 10px;
+        margin-left: 23px;
+        overflow: hidden;
+        display: flex;
+        font-size: 13px;
+        
+        
+    }
+    .ev1img{
+        width: 70%;
+        height: 458px;
+        border: 0px solid black;
+        margin-top: 10px;
+        margin-left: 82px;
+        overflow: hidden;
+        display: flex;
+        
+    }
+
+    .topic{
+        width: 64%;
+        height: 63px;
+        border: 0px solid black;
+        margin-left: 28px;
+        text-align: center;
+        font-size: 54px;
+        margin-top: 13px;
+        
+    
+    }
+ 
+        .ev2main{
+            width: 100%;
+            height: 511px;
+            border: 0px solid black;
+            margin-top: 16px;
+            margin-left: 0px;
+            overflow: hidden;
+            display: flex;
+        }
+        .ev2dis{
+            width: 23%;
+            height: 458px;
+            border: 0px solid black;
+            margin-top: 10px;
+            margin-left: 23px;
+            overflow: hidden;
+            display: flex;
+            font-size: 13px;
+            
+            
+        }
+        .ev2img{
+            width: 70%;
+            height: 458px;
+            border: 0px solid black;
+            margin-top: 10px;
+            margin-left: 82px;
+            overflow: hidden;
+            display: flex;
+            
+        }
+        .gallmain{
+            width: 50%;
+            height: 50px;
+            border: 2px solid black;
+        }
+        .main{
+            overflow: hidden;
+            
+        }
